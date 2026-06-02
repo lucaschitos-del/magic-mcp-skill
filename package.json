@@ -1,0 +1,19 @@
+{
+  "name": "magic-mcp-skill",
+  "version": "1.0.0",
+  "description": "Install the Magic MCP skill for Claude Code — generate production-ready UI components from natural language",
+  "keywords": ["claude", "claude-code", "mcp", "skill", "ui", "components", "21st-dev"],
+  "homepage": "https://github.com/lucaschitos-del/magic-mcp-skill",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "magic-mcp-skill": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
